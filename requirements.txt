@@ -1,0 +1,40 @@
+# Core data science
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+
+# Modeling
+xgboost>=2.0
+
+# Class imbalance
+imbalanced-learn>=0.12
+
+# Explainability
+shap>=0.45
+lime>=0.2.0.1
+dice-ml>=0.11
+
+# Fairness auditing
+fairlearn>=0.11
+
+# Hyperparameter tuning
+optuna>=3.6
+
+# Dimensionality reduction / clustering
+umap-learn>=0.5
+hdbscan>=0.8.33   # optional: enables the density-based alternative clustering in Section 15.3
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# App / deployment
+streamlit>=1.35
+joblib>=1.4
+
+# Notebook execution (for CI / reproducing outputs headlessly)
+jupyter>=1.0
+nbformat>=5.10
+nbclient>=0.10
+ipykernel>=6.29
